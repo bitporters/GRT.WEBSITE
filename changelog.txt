@@ -1,0 +1,83 @@
+v1.9 2024-OCT-14
+
+- FIXED: Shield doesn't reset correctly on rebirth/new player
+- FIXED: Skillpoints when reset didn't undo previous perks
+- FIXED: Shield wasn't being passed an agent so timer always returned player 1
+- TWEAK: Get 1 SP for every rebirth
+- FIXED: nav mesh fixes for wolves
+
+v1.8
+
+- FIXED: a few unlock texts were invisible
+- FIXED: shovel was at 2 rebirths now at 1
+- FIXED: player health and shield not regenerating - team settings
+
+v1.7
+
+- TWEAK: slow down wolf spawner
+- FIXED: second layer of mine boulders don't work
+- FIXED: reset player doesnt work, make the piano vendor offer it
+
+v1.6
+
+- FIXED: tnt purchasing fixed, missing accolade and analytic reference
+- FEATURE: allow reset data
+- TWEAK: army doesnt cancel orders if suspicous, only if attacked
+
+v1.5
+
+- FEATURE: wolves in shoulder areas when no bandits
+- FIXED: army doesnt despawn on rebirth
+- FIXED: washbucket doesnt seem to despawn on rebirth
+- TWEAK: army is early now but too expensive (reduced to 100) 
+- TWEAK: tools unlock lowered to 100
+- FIXED: gold ingot pickup doesnt reset on rebirth
+- TWEAK: first gold nugget sell reward price is dissapointing, raised a bit, made pickaxe 1 rebirth
+
+v1.4
+
+- FIXED: attenuation on foley noise
+- FIXED: teams were set to dynamic :(
+- FIXED: paydirt beacons had wrong team settings
+- FIXED: delay on loading incase team switch happens on loading
+- FIXED: team settings for color / score shows team
+
+v1.3
+
+- FIXED: rebirths would fail if had > than max (thank you XxSwolShairxX)
+- FIXED: red water not in right location, vfx is backwards
+- FIXED: base re-loading maybe have issues, put back in delay
+- FIXED: collision in front fort plate had gaps you could fall through 
+- FIXED: mine gold here beacon
+- FIXED: reduce bandit visibility to default (upped to fix other issue incorrectly)
+- FIXED: last tower is too expensive for what it does for you
+- FIXED: eliminated a bandit feed
+- FIXED: sold gold grams to snake oil feed
+- FIXED: sold gold grams to vendor feed 
+- FIXED: army on seperate unlock path
+- FIXED: base army mine rate was way too high (paid max rate for testing I guess??)
+- FIXED: added analytic for rebirth
+- FIXED: bugfix analytic for skilpoint reset
+
+v1.2
+
+- FIXED: swap dropped items
+- FIXED: trying to pickup a object while holding froze object
+- FIXED: weapons dont get cleared on rebirth
+- FIXED: pricing of ingots wrong
+- FIXED: pick axe animation showing up in bad spot
+- FIXED: rebirth grams 2x instead of 1.5
+- FIXED: smelter skillpoints work now
+- FEATURE: remind player they have unspend skillpoints
+- FIXED: bandits too easy to kill at range
+
+v1.1
+
+- FIXED: "pros and cons" for piano player typo
+- FIXED: collision of train tracks is annoying
+- FIXED: how to mine sign
+- FIXED: can pick up empty wash bucket
+- FIXED: lower price of smith a bit? 2500->1000?
+- FIXED: raise impact of mining skillpoints a bit
+- FIXED: raised price of selling pan to parity + full pan to 50% profit
+- FIXED: add music near bases
